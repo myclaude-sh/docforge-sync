@@ -1,36 +1,23 @@
-# Docforge Sync
-
-[![Available on MyClaude](https://myclaude.sh/badge/available.svg)](https://myclaude.sh/p/docforge-sync)
-
-Documentation drift detection + verification — computes DDS-1 (6-component Doc Drift Score), runs doctest dispatch (pytest-markdown-docs / cargo test --doc / mdbook test / Go testable examples), Vale prose lint with custom rules (hedge soup, anonymous best-practice, redaction), lychee link check, frontmatter schema validation, schema-derive (Pydantic / OpenAPI / Protobuf / GraphQL → reference docs).
-
-| | |
-|---|---|
-| **Category** | skills |
-| **Version** | 0.1.0 |
-| **Author** | [@l0z4n0](https://myclaude.sh/u/l0z4n0) |
-| **License** | Proprietary |
-| **Price** | Free |
-
-## Installation
-
-### Via MyClaude CLI
-```bash
-myclaude install docforge-sync
-```
-
-### Via Vercel Skills
-```bash
-npx skills add myclaude-sh/docforge-sync
-```
-
-### Via Claude Code Plugin System
-```
-/plugin marketplace add myclaude-sh/registry
-/plugin install docforge-sync@myclaude-sh
-```
-
-## About
+---
+name: docforge-sync
+display_name: Docforge Sync
+description: "Documentation drift detection + verification — computes DDS-1 (6-component Doc Drift Score), runs doctest dispatch (pytest-markdown-docs / cargo test --doc / mdbook test / Go testable examples), Vale "
+version: 0.1.0
+author: l0z4n0
+license: Proprietary
+tags:
+  - "documentation"
+  - "drift-detection"
+  - "DDS-1"
+  - "doctest"
+  - "Vale"
+  - "lychee"
+  - "schema-derive"
+  - "tree-sitter"
+  - "frontmatter"
+marketplace_url: "https://myclaude.sh/p/docforge-sync"
+user-invocable: true
+---
 
 ---
 audience: human-expert
@@ -139,13 +126,3 @@ Forged in `D:/lozano-system/workspace/docforge-build/P4-skills-forge/` from:
 
 <sub>Built with MyClaude Studio Engine</sub>
 
-
-## Tags
-
-`documentation` `drift-detection` `DDS-1` `doctest` `Vale` `lychee` `schema-derive` `tree-sitter` `frontmatter`
-
----
-
-*Published on [MyClaude Marketplace](https://myclaude.sh/p/docforge-sync) — the curated marketplace for the Claude Code ecosystem.*
-
-*This repository is automatically mirrored from MyClaude. To publish updates, use `myclaude publish`.*

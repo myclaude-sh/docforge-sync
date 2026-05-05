@@ -1,0 +1,17 @@
+name: docforge-sync
+version: 0.1.0
+type: skill
+description: "Documentation drift detection + verification — computes DDS-1 (6-component Doc Drift Score), runs doctest dispatch (pytest-markdown-docs / cargo test --doc / mdbook test / Go testable examples), Vale prose lint with custom rules (hedge soup, anonymous best-practice, redaction), lychee link check, frontmatter schema validation, schema-derive (Pydantic / OpenAPI / Protobuf / GraphQL → reference docs)."
+price: 0
+license: Proprietary
+entry: SKILL.md
+tags:
+  - documentation
+  - drift-detection
+  - DDS-1
+  - doctest
+  - Vale
+  - lychee
+  - schema-derive
+  - tree-sitter
+  - frontmatter
