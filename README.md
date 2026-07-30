@@ -11,6 +11,7 @@ Documentation drift detection + verification — computes DDS-1 (6-component Doc
 | **Author** | [@l0z4n0](https://myclaude.sh/u/l0z4n0) |
 | **License** | Proprietary |
 | **Price** | Free |
+| **Downloads** | 3 |
 
 ## Installation
 
